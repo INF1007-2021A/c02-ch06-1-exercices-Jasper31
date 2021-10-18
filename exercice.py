@@ -14,7 +14,7 @@ def get_maximums(numbers):
 	return max_liste
 
 def join_integers(numbers):
-	return ''.join([str(elem) for elem in numbers])
+	return int(''.join([str(elem) for elem in numbers]))
 
 def generate_prime_numbers(limit):
 	prime = []
